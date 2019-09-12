@@ -1,0 +1,39 @@
+{
+	"name": "my-courses-api",
+	"version": "1.0.0",
+	"description": "API for MyCourses APP",
+	"scripts": {
+		"dev": "nodemon --inspect --exec babel-node src/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/armanai/MyCoursesApi.git"
+	},
+	"keywords": [
+		"restapi"
+	],
+	"author": "Armana Liberdova",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/armanai/MyCoursesApi/issues"
+	},
+	"homepage": "https://github.com/armanai/MyCoursesApi#readme",
+	"dependencies": {
+		"bcrypt": "^3.0.6",
+		"jsonwebtoken": "^8.5.1",
+		"kcors": "^2.2.2",
+		"koa": "^2.8.1",
+		"koa-body": "^4.1.1",
+		"koa-jwt": "^3.6.0",
+		"koa-router": "^7.4.0",
+		"lodash": "^4.17.15",
+		"mysql2": "^1.7.0",
+		"sequelize": "^5.18.4"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.6.0",
+		"@babel/node": "^7.6.1",
+		"@babel/preset-env": "^7.6.0",
+		"nodemon": "^1.19.2"
+	}
+}
